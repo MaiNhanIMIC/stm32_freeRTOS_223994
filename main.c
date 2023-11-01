@@ -117,7 +117,7 @@ void func_5(void* param)
 		xSemaphoreTake(uart_lock, 0xffffffff);
 		printlog("\033[0;32m[task 5]\033[0m: hello world\r\n");
 		xSemaphoreGive(uart_lock);
-		vTaskDelay(1000);
+		vTaskDelay(500);
 	}
 }
 
