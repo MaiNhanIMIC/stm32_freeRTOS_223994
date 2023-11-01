@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "arm-cortex-m4",
+            "includePath": [
+                "Custom_Driver/Inc",
+                ".",
+                "FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/include",
+                "FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/GCC/ARM_CM4F"
+
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "D:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.07\\bin\\arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m4"
+            ]
+        }
+    ],
+    "version": 4
+}

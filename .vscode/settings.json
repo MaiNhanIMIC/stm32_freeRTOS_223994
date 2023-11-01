@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "delay.h": "c",
+        "clock.h": "c",
+        "freertos.h": "c",
+        "stdio.h": "c",
+        "event_groups.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/Users/maitr/Desktop/stm32f411_prj/FreeRTOS-LTS/aws/device-defender-for-aws-iot-embedded-sdk/test"
+}
